@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF0D74D325ECBA1F000F4A84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D74D225ECBA1F000F4A84 /* AppDelegate.swift */; };
+		AF0D74D525ECBA1F000F4A84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D74D425ECBA1F000F4A84 /* SceneDelegate.swift */; };
+		AF0D74D725ECBA1F000F4A84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D74D625ECBA1F000F4A84 /* ViewController.swift */; };
+		AF0D74DA25ECBA1F000F4A84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0D74D825ECBA1F000F4A84 /* Main.storyboard */; };
+		AF0D74DC25ECBA29000F4A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF0D74DB25ECBA29000F4A84 /* Assets.xcassets */; };
+		AF0D74DF25ECBA29000F4A84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0D74DD25ECBA29000F4A84 /* LaunchScreen.storyboard */; };
+		AF0D74EA25ECD2F3000F4A84 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D74E925ECD2F3000F4A84 /* LoginViewController.swift */; };
+		AF0D74ED25ECD38A000F4A84 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D74EC25ECD38A000F4A84 /* SignUpViewController.swift */; };
+		AF0D74F025ECDF0E000F4A84 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D74EF25ECDF0E000F4A84 /* HomePageViewController.swift */; };
+		AF0D74F325ECEB22000F4A84 /* IdentifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D74F225ECEB22000F4A84 /* IdentifyViewController.swift */; };
+		AF0D74F625EE9EFB000F4A84 /* ButterflyBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D74F525EE9EFB000F4A84 /* ButterflyBookViewController.swift */; };
+		AF0D74F925EEA668000F4A84 /* ButterflyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D74F825EEA668000F4A84 /* ButterflyTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF0D74CF25ECBA1F000F4A84 /* VIPLAB_Butterfly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPLAB_Butterfly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0D74D225ECBA1F000F4A84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF0D74D425ECBA1F000F4A84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF0D74D625ECBA1F000F4A84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF0D74D925ECBA1F000F4A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF0D74DB25ECBA29000F4A84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF0D74DE25ECBA29000F4A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF0D74E025ECBA29000F4A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF0D74E925ECD2F3000F4A84 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AF0D74EC25ECD38A000F4A84 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AF0D74EF25ECDF0E000F4A84 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		AF0D74F225ECEB22000F4A84 /* IdentifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyViewController.swift; sourceTree = "<group>"; };
+		AF0D74F525EE9EFB000F4A84 /* ButterflyBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButterflyBookViewController.swift; sourceTree = "<group>"; };
+		AF0D74F825EEA668000F4A84 /* ButterflyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButterflyTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF0D74CC25ECBA1F000F4A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF0D74C625ECBA1F000F4A84 = {
+			isa = PBXGroup;
+			children = (
+				AF0D74D125ECBA1F000F4A84 /* VIPLAB_Butterfly */,
+				AF0D74D025ECBA1F000F4A84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF0D74D025ECBA1F000F4A84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF0D74CF25ECBA1F000F4A84 /* VIPLAB_Butterfly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF0D74D125ECBA1F000F4A84 /* VIPLAB_Butterfly */ = {
+			isa = PBXGroup;
+			children = (
+				AF0D74E825ECD298000F4A84 /* ViewController */,
+				AF0D74D225ECBA1F000F4A84 /* AppDelegate.swift */,
+				AF0D74D425ECBA1F000F4A84 /* SceneDelegate.swift */,
+				AF0D74D825ECBA1F000F4A84 /* Main.storyboard */,
+				AF0D74DB25ECBA29000F4A84 /* Assets.xcassets */,
+				AF0D74DD25ECBA29000F4A84 /* LaunchScreen.storyboard */,
+				AF0D74E025ECBA29000F4A84 /* Info.plist */,
+			);
+			path = VIPLAB_Butterfly;
+			sourceTree = "<group>";
+		};
+		AF0D74E825ECD298000F4A84 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AF0D74D625ECBA1F000F4A84 /* ViewController.swift */,
+				AF0D74E925ECD2F3000F4A84 /* LoginViewController.swift */,
+				AF0D74EC25ECD38A000F4A84 /* SignUpViewController.swift */,
+				AF0D74EF25ECDF0E000F4A84 /* HomePageViewController.swift */,
+				AF0D74F225ECEB22000F4A84 /* IdentifyViewController.swift */,
+				AF0D74F525EE9EFB000F4A84 /* ButterflyBookViewController.swift */,
+				AF0D74F825EEA668000F4A84 /* ButterflyTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF0D74CE25ECBA1F000F4A84 /* VIPLAB_Butterfly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0D74E325ECBA29000F4A84 /* Build configuration list for PBXNativeTarget "VIPLAB_Butterfly" */;
+			buildPhases = (
+				AF0D74CB25ECBA1F000F4A84 /* Sources */,
+				AF0D74CC25ECBA1F000F4A84 /* Frameworks */,
+				AF0D74CD25ECBA1F000F4A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VIPLAB_Butterfly;
+			productName = VIPLAB_Butterfly;
+			productReference = AF0D74CF25ECBA1F000F4A84 /* VIPLAB_Butterfly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF0D74C725ECBA1F000F4A84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AF0D74CE25ECBA1F000F4A84 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = AF0D74CA25ECBA1F000F4A84 /* Build configuration list for PBXProject "VIPLAB_Butterfly" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF0D74C625ECBA1F000F4A84;
+			productRefGroup = AF0D74D025ECBA1F000F4A84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF0D74CE25ECBA1F000F4A84 /* VIPLAB_Butterfly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF0D74CD25ECBA1F000F4A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0D74DF25ECBA29000F4A84 /* LaunchScreen.storyboard in Resources */,
+				AF0D74DC25ECBA29000F4A84 /* Assets.xcassets in Resources */,
+				AF0D74DA25ECBA1F000F4A84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF0D74CB25ECBA1F000F4A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0D74EA25ECD2F3000F4A84 /* LoginViewController.swift in Sources */,
+				AF0D74F925EEA668000F4A84 /* ButterflyTableViewController.swift in Sources */,
+				AF0D74D725ECBA1F000F4A84 /* ViewController.swift in Sources */,
+				AF0D74F325ECEB22000F4A84 /* IdentifyViewController.swift in Sources */,
+				AF0D74F025ECDF0E000F4A84 /* HomePageViewController.swift in Sources */,
+				AF0D74D325ECBA1F000F4A84 /* AppDelegate.swift in Sources */,
+				AF0D74F625EE9EFB000F4A84 /* ButterflyBookViewController.swift in Sources */,
+				AF0D74D525ECBA1F000F4A84 /* SceneDelegate.swift in Sources */,
+				AF0D74ED25ECD38A000F4A84 /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF0D74D825ECBA1F000F4A84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF0D74D925ECBA1F000F4A84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF0D74DD25ECBA29000F4A84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF0D74DE25ECBA29000F4A84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF0D74E125ECBA29000F4A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF0D74E225ECBA29000F4A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF0D74E425ECBA29000F4A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FJM478WRFL;
+				INFOPLIST_FILE = VIPLAB_Butterfly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "csie.ncnu.VIPLAB-Butterfly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF0D74E525ECBA29000F4A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FJM478WRFL;
+				INFOPLIST_FILE = VIPLAB_Butterfly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "csie.ncnu.VIPLAB-Butterfly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF0D74CA25ECBA1F000F4A84 /* Build configuration list for PBXProject "VIPLAB_Butterfly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0D74E125ECBA29000F4A84 /* Debug */,
+				AF0D74E225ECBA29000F4A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0D74E325ECBA29000F4A84 /* Build configuration list for PBXNativeTarget "VIPLAB_Butterfly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0D74E425ECBA29000F4A84 /* Debug */,
+				AF0D74E525ECBA29000F4A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF0D74C725ECBA1F000F4A84 /* Project object */;
+}
