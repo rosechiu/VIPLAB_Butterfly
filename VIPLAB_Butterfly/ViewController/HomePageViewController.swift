@@ -31,25 +31,19 @@ class HomePageViewController: UIViewController {
         let w = screen_width/3
         
         //設置button的大小
-        button_identify.frame = CGRect(x: 0, y: h*12.5, width: w, height: h*1.5/3*2)
-        button_book.frame = CGRect(x: w, y: h*12.5, width: w, height: h*1.5/3*2)
-        button_partner.frame = CGRect(x: w*2, y: h*12.5, width: w, height: h*1.5/3*2)
+        button_identify.frame = CGRect(x: 0, y: h*12, width: w, height: h*1.5)
+        button_book.frame = CGRect(x: w, y: h*12, width: w, height: h*1.5)
+        button_partner.frame = CGRect(x: w*2, y: h*12, width: w, height: h*1.5)
+        
+        //讓button中的image比例不失真
+        button_identify.imageView?.contentMode = .scaleAspectFit
+        button_book.imageView?.contentMode = .scaleAspectFit
+        button_partner.imageView?.contentMode = .scaleAspectFit
         
         //設置label的大小
         label_identify.frame = CGRect(x: 0, y: h*13.5, width: w, height: h*0.5)
         label_book.frame = CGRect(x: w, y: h*13.5, width: w, height: h*0.5)
         label_partner.frame = CGRect(x: w*2, y: h*13.5, width: w, height: h*0.5)
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
